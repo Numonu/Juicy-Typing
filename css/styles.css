@@ -1,8 +1,10 @@
 @import "animations.css";
 
+
 .content {
     width: 100vw;
     height: 100vh;
+    background-color: white;
 }
 
 .wrapper {
@@ -150,6 +152,18 @@
     gap: 1rem;
 
     text-align: center;
+}
+
+.modeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50% , 50%);
+
+    font-size: 2rem;
+}
+.darkmode{
+    filter: invert(1);
 }
 
 /*==================================================================*/

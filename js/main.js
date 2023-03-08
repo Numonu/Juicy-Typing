@@ -1,5 +1,6 @@
 import {PhraseBrain} from "./phraseBrain.js";
 import {CharNodes} from "./charNodes.js";
+import "./darkmode.js";
 
 const phraseDom =  document.querySelector(".phrase");
 export const loader = document.getElementById("loader");
