@@ -161,6 +161,8 @@
     transform: translate(-50% , 50%);
 
     font-size: 2rem;
+
+    cursor: pointer;
 }
 .darkmode{
     filter: invert(1);
